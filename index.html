@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Repartie Front-END</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="uploads/pictures/logo2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Ajout du lien vers le fichier CSS externe -->
+</head>
+<body>
+    <!-- Header avec Bootstrap -->
+    <header class="bg-warning text-white"> <!-- Changement de la couleur du header en orangé -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+            <div class="container-fluid">
+                <!-- Logo en haut à gauche -->
+                <a class="navbar-brand" href="#">
+                    <img class="logoSite" src="uploads/pictures/photoSite.png" alt="Logo" width="50">
+                    Carembar
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Page1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Page2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Page3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Texte d'accueil -->
+    <section class="container-fluid p-0 position-relative">
+        <img src="uploads/pictures/MainPhotoCarembar.jpg" class="img-fluid" alt="Image d'accueil">
+        <div>
+            <h2 class="welcome-text">Bienvenue chez Carambar&co</h2>
+            <h3 class="welcome-sous-text">DÉCOUVRE TOUS TES PRODUITS PRÉFÉRÉS ICI !</h3>
+        </div>
+    </section>
+
+    <!-- Section d'accueil -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="display-4">Bienvenue le site officiel de Carembar</h1>
+                <p class="lead">Découvrez nos fonctionnalités étonnantes et notre contenu exceptionnel.</p>
+                <hr class="my-4">
+                <p>Utilisez les boutons ci-dessous pour afficher une blague Carembar.</p>
+                <!-- Ajout du bouton pour afficher une blague -->
+                <button id="btnBlague" class="btn btn-warning btn-lg">Afficher une blague</button>
+                <!-- Zone pour afficher la question et la réponse -->
+                <div id="blagueContainer" class="mt-4"></div>
+                <p>question</p>
+                <p>reponse</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="/assets/js/script.js"></script> <!-- Ajout du lien vers le fichier JavaScript externe -->
+</body>
+</html>

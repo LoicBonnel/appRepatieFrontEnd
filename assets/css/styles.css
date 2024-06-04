@@ -1,0 +1,46 @@
+body{
+    background-color: beige;
+}
+/* Ajout de CSS pour le texte orange et plus gros */
+.question {
+    color: orange;
+    font-size: 24px;
+}
+
+.reponse {
+    color: orange;
+    font-size: 20px;
+}
+
+.logoSite{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+/* Ajout de CSS pour le texte d'accueil */
+.welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(203, 54, 79);
+    transform: translate(-50%, -50%) rotate(-3deg); /* Inclinaison du texte */
+
+    padding: 20px;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.welcome-sous-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: Black;
+
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
